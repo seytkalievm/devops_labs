@@ -1,5 +1,13 @@
 # DevOps course labs at Innopolis University
 
+![Docker](https://github.com/seytkalievm/devops_labs/actions/workflows/docker.yml/badge.svg)
+
+![Pylint](https://github.com/seytkalievm/devops_labs/actions/workflows/lint.yml/badge.svg)
+
+![Python package](https://github.com/seytkalievm/devops_labs/actions/workflows/build_test.yml/badge.svg)
+
+![SNYK](https://github.com/seytkalievm/devops_labs/actions/workflows/snyk.yml/badge.svg)
+
 ## Overview
 
 This is Python web application written using [FlaskAPI framework]
@@ -56,6 +64,20 @@ To run from the master branch, follow the instructions below:
     ```bash
     docker run -p 5000:5000 seytkalievm/devops_lab
     ```
+
+## Unit Testing
+
+To run test, first navigate to the test directory:
+
+```bash
+cd app_python/test
+```
+
+then run test:
+
+```bash
+python unit_test.py
+```
 
 ## Contacts
 

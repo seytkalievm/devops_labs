@@ -6,7 +6,7 @@ USER user
 
 WORKDIR /
 
-COPY requirements.txt requirements.txt
+COPY app_python/requirements.txt requirements.txt
 
 USER root
 
